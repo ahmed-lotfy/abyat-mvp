@@ -7,6 +7,6 @@ class MVPCalculatorTest {
     @Test
     fun testFindMVP() {
         val mvp = MVPCalculator.findMVP("files/")
-        print(mvp)
+        assertEquals(mvp, "nick3")
     }
 }
